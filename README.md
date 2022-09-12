@@ -22,4 +22,5 @@
 
 # Para validação de dados
 
-Para validar os dados utilizaremos o fram celebrate
+Para validar os dados utilizaremos o pacote celebrate
+que utila a biblioteca joi que  é uma biblioteca de validação de dados
