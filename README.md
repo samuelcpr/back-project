@@ -20,7 +20,19 @@
 
 ─Proteção contra ataques DDos
 
-# Para validação de dados
+# Celebrate para validar dados
 
 Para validar os dados utilizaremos o pacote celebrate
-que utila a biblioteca joi que  é uma biblioteca de validação de dados
+que utiliza a biblioteca joi que  é uma biblioteca de validação de dados
+
+# criando migrations com typeorm
+
+> criar migrations
+yarn typeorm migration:create -n CreateProducts
+
+> rodar migrations
+
+yarn typeorm migration:run
+
+# Entidade de usuario
+
